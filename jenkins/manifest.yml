@@ -1,7 +1,7 @@
 applications:
 - name: springBoot101
   instances: 1
-  memory: 64M
+  memory: 1G
   path: /var/jenkins_home/workspace/pipelineJob/target/demo-0.0.1-SNAPSHOT.jar
   timeout: 120
   routes:
