@@ -1,9 +1,9 @@
 applications:
-- name: demo
+- name: springBoot101
   instances: 1
   memory: 64M
   path: /var/jenkins_home/workspace/pipelineJob/target/demo-0.0.1-SNAPSHOT.jar
   timeout: 120
   routes:
-  - route: demo.cfapps.io
+  - route: springBoot101.cfapps.io
   buildpack: https://github.com/cloudfoundry/java-buildpack
