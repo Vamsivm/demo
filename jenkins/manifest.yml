@@ -2,7 +2,7 @@ applications:
 - name: demo
   instances: 1
   memory: 64M
-  path: /var/jenkins_home/workspace/demo/target/demo-0.0.1-SNAPSHOT.jar
+  path: /var/jenkins_home/workspace/pipelineJob/target/demo-0.0.1-SNAPSHOT.jar
   timeout: 120
   routes:
   - route: demo.cfapps.io
